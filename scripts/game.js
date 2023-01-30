@@ -4,6 +4,7 @@ var breadPrice = 10;
 
 function createFood() {
     clicks += cps;
+    document.getElementById('food').innerHTML = clicks;
 }
 
 function buyBread() {
